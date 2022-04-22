@@ -1,0 +1,61 @@
+body {
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(249, 248, 248, 0.761);
+  border: 2px solid rgba(36, 125, 203, 0.667);
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.message--inbox {
+  margin-top: 5px;
+  padding: 0px 5px;
+  height: 30px;
+  width: 95%;
+  border-bottom: 1px solid grey;
+  line-height: 2.5;
+}
+.message--outgoing {
+  height: 200px;
+}
+.message__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.new-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+.new-msg__text {
+  border: 1px solid rgba(128, 128, 128, 0.408);
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(249, 248, 248, 0.761);
+}
+.new-msg__btn {
+  margin: 8px 0;
+  height: 40px;
+  width: 95%;
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(#ffa84c 0%, #ff7b0d 100%);
+  border-radius: 5px;
+}
