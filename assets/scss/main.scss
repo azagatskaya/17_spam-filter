@@ -32,7 +32,11 @@ body{
 		line-height: 2.5;
 	}
 	&--outgoing{
+		margin-top: 5px;
+		padding: 10px 5px 0px 5px;
+		width: 95%;
 		height: 200px;
+		text-align: left;
 	}
 	&__wrapper{
 		@include flex-col-center;
