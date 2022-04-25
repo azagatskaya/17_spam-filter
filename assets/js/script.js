@@ -23,7 +23,7 @@ function getUserMsg() {
 }
 
 function printMsg(filteredMsg) {
-	getOutgoingBox().innerText = filteredMsg;
+	getOutgoingBox().innerText += (filteredMsg + '\n');
 }
 
 function getOutgoingBox() {

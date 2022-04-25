@@ -30,6 +30,7 @@ body {
   width: 95%;
   height: 200px;
   text-align: left;
+  line-height: 1.2;
 }
 .message__wrapper {
   display: flex;
